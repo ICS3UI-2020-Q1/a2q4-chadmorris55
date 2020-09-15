@@ -36,26 +36,26 @@ public class Main {
       double saved = price / divisor * tenOff;
       double newTotal = price - saved;
       System.out.println("They will receive 10% off.");
-      System.out.println("They will save " + saved + ".");
-      System.out.println("The new total is " + newTotal + ".");
+      System.out.println("They will save $" + saved + ".");
+      System.out.println("The new total is $" + newTotal + ".");
   } else if (price > twentyLow && price < twentyHigh){
       double saved = price / divisor * twentyOff;
       double newTotal = price - saved;
       System.out.println("They will receive 20% off.");
-      System.out.println("They will save " + saved + ".");
-      System.out.println("The new total is " + newTotal + ".");
+      System.out.println("They will save $" + saved + ".");
+      System.out.println("The new total is $" + newTotal + ".");
   } else if (price > thirtyLow && price < thirtyHigh){
       double saved = price / divisor * thirtyOff;
       double newTotal = price - saved;
       System.out.println("They will receive 30% off.");
-      System.out.println("They will save " + saved + ".");
-      System.out.println("The new total is " + newTotal + ".");
+      System.out.println("They will save $" + saved + ".");
+      System.out.println("The new total is $" + newTotal + ".");
   } else if (price > fortyLow){
     double saved = price / divisor * fortyOff;
       double newTotal = price - saved;
       System.out.println("They will receive 40% off.");
-      System.out.println("They will save " + saved + ".");
-      System.out.println("The new total is " + newTotal + ".");
+      System.out.println("They will save $" + saved + ".");
+      System.out.println("The new total is $" + newTotal + ".");
   }
   }
 }
